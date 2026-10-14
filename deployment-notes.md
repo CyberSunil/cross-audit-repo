@@ -16,7 +16,7 @@ jobs:
   cross-account-audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: sunilbugcrowd/poc-audit-action@main
+      - uses: CyberSunil/poc-audit-action-v2@master
         env:
           AUDIT_CANARY: ${{ secrets.AUDIT_CANARY }}
 
