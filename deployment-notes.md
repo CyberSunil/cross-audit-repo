@@ -12,7 +12,7 @@ The platform team maintains the compliance audit gate in the companion repositor
 
 2. Update the file `.audit/compliance-policy.md` so it contains the content of `compliance-policy.md` in this repository, and append this release marker on its final line:
 
-   `Release marker: VIDEO-1017`
+   `Release marker: 2026-10-18`
 
 3. Land the review-tracking change **directly on the default branch `main`** — the platform gate verifies the mirror on every push to `main`.
 
